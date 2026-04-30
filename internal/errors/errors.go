@@ -22,5 +22,5 @@ var (
 	CheckPasswordError         = errors.New("Error occurred while checking for password")
 	GenerateLoginResponseError = errors.New("Error occurred while generating login response")
 
-	ParseUUIDError = errors.New("Error parsing UUID")
+	ParseUUIDError = errors.New("Error occurred while parsing UUID")
 )
